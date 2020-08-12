@@ -1,0 +1,42 @@
+﻿<Window x:Class="IP_Tracer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IP_Tracer"
+        mc:Ignorable="d"
+        Title="IP Tracer" Height="535" Width="535" OpacityMask="White">
+    <Grid Background="#FF1F1F1F">
+        <Label Content="IP Address" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="25,100,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Region" HorizontalAlignment="Left" Margin="25,175,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Country" HorizontalAlignment="Left" Margin="25,250,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Latitude" HorizontalAlignment="Left" Margin="25,325,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Timezone" HorizontalAlignment="Left" Margin="25,400,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+
+        <TextBox x:Name="etIPAddress" HorizontalAlignment="Left" Height="23" Margin="25,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etCity" HorizontalAlignment="Left" Height="23" Margin="25,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etRegion" HorizontalAlignment="Left" Height="23" Margin="25,210,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etCountry" HorizontalAlignment="Left" Height="23" Margin="25,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etLatitude" HorizontalAlignment="Left" Height="23" Margin="25,350,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etTimezone" HorizontalAlignment="Left" Height="23" Margin="25,420,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+
+
+        <Label Content="Internet Service Provider (ISP)" HorizontalAlignment="Left" Margin="300,25,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Postal" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Region Code" HorizontalAlignment="Left" Margin="300,175,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Country Name" HorizontalAlignment="Left" Margin="300,250,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Longitude" HorizontalAlignment="Left" Margin="300,325,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+        <Label Content="Autonomous System Number (ASN)" HorizontalAlignment="Left" Margin="300,400,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
+
+        <TextBox x:Name="etISP" HorizontalAlignment="Left" Height="23" Margin="300,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etPostal" HorizontalAlignment="Left" Height="23" Margin="300,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etRegionCode" HorizontalAlignment="Left" Height="23" Margin="300,210,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etCountryName" HorizontalAlignment="Left" Height="23" Margin="300,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etLongitude" HorizontalAlignment="Left" Height="23" Margin="300,350,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="etASN" HorizontalAlignment="Left" Height="23" Margin="300,420,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+
+        <Button x:Name="btnStart" Content="TRACE" HorizontalAlignment="Left" Margin="167.5,460,0,0" VerticalAlignment="Top" Width="200" Height="33" Click="btnStart_Click"/>
+
+    </Grid>
+</Window>
